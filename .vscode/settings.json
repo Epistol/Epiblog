@@ -1,0 +1,8 @@
+{
+  "workspace.exclude": {
+    "wordpress/wp-content/uploads": true
+  },
+  "files.exclude": {
+    "wordpress/wp-content/uploads": true
+  }
+}
