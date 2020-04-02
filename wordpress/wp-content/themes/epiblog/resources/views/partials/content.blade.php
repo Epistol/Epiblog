@@ -5,9 +5,10 @@
   </header>
   <div class="lg:flex -mx-6">
     <div class="entry-summary">
-    <div id="navwrapper" class="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:relative lg:sticky lg:top-16 bg-white lg:bg-transparent">
-      @include('partials/sidebar')
-    </div>
+      <div id="navwrapper"
+      class="h-full overflow-y-auto scrolling-touch lg:h-auto lg:block lg:relative lg:sticky lg:top-16 bg-white lg:bg-transparent">
+        @include('partials/sidebar')
+      </div>
       @php the_excerpt() @endphp
     </div>
   </div>
