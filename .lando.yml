@@ -1,0 +1,4 @@
+name: epiblogs
+recipe: wordpress
+config:
+  webroot: wordpress
